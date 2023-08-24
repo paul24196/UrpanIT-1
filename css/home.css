@@ -1,0 +1,261 @@
+/* Add your custom styles here */
+
+
+
+/* Background Styleing */
+
+#hero{
+  background-color: #d2b48c;
+}
+
+#about{
+  background-color: #d2b48c;
+}
+
+hr{
+  border-top: 100px solid white !important ;
+}
+
+#services{
+  background-color: #d2b48c;
+}
+
+/* Start */
+
+/* end of background styling */
+
+
+/* Hero Section Styles */
+.hero {
+    /* background-size: cover; */
+  }
+
+.carousel-caption h5{
+    color: #fff;
+    /* background-color: #266DB6; */
+}  
+
+.carousel-caption span{
+  background-color: #343a40;
+}
+
+.carousel-caption p{
+  color: #fff;
+}
+  
+  /* About Section Styles */
+  #about {
+    padding: 100px 0;
+  }
+  
+  /* Services Section Styles */
+  #services {
+    /* padding: 100px 0; */
+  }
+  
+  /* Contact Section Styles */
+  #contact {
+    padding: 100px 0;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+  }
+
+  /* contactus button */
+
+button.getstarted {
+  /* background-color: transparent;
+  border: 1px solid #266DB6;
+  box-sizing: border-box;
+  color: #00132C;
+  font-family: "Avenir Next LT W01 Bold",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 16px 23px;
+  position: relative;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation; */
+}
+
+/* .getstarted:hover,
+.getstarted:active {
+  outline: 0;
+}
+
+.getstarted:hover {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.getstarted:before {
+  background-color: #D5EDF6;
+  content: "";
+  height: calc(100% + 3px);
+  position: absolute;
+  right: -7px;
+  top: -9px;
+  transition: background-color 300ms ease-in;
+  width: 100%;
+  z-index: -1;
+}
+
+.getstarted:hover:before {
+  background-color: #6DCFF6;
+} */
+
+@media (min-width: 768px) {
+  .getstarted {
+    padding: 16px 32px;
+  }
+}
+
+button.submit{
+  background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  flex-shrink: 0;
+  font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  height: 2.5rem;
+  padding: 0 1.6rem;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+  transition: all .5s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.submit:hover {
+  box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+  transition-duration: .1s;
+}
+
+@media (min-width: 768px) {
+  .submit {
+    padding: 0 2.6rem;
+  }
+}
+
+/* Styling the card components  */
+
+#services .col-md-4{
+  margin-top: 0%;
+  margin-bottom: 5%;
+}
+
+.ser{
+  margin-bottom: 5%;
+}
+
+.service-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  }
+  
+  .service-card .card-body {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+  
+  .service-card .card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  }
+  
+  .service-card .card-text {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  }
+
+  /* End of Styling */
+
+.card-body {
+  flex: 1 1 auto;
+  min-height: 1px; 
+  padding: 1.25rem;
+  text-align: justify;
+}
+
+.card:hover {
+  box-shadow: rgba(63, 158, 205, 0.5) 0 1px 30px;
+  transition-duration: .1s;
+  transform: scale(1.05);
+}
+
+img.Aboutus{
+    margin-left: 15%;
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+div.map{
+    height: 100%;
+}
+
+/* input.form-control{
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 0.5rem;
+    width: 50%;
+    margin-bottom: 1rem;
+    margin-left: 5rem;
+}
+textarea{
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 0.5rem;
+    width: 30%;
+    margin-bottom: 1rem;
+    margin-left: 5rem;
+    margin-right: 10rem;
+} */
+label.contact{
+    font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 2rem;
+    color: #00132C;
+    margin-left: 5rem;
+}
+
+img.blackfadeout{
+    position: relative;
+    margin-top: 4rem;
+}
+
+/* Footer styling */
+
+footer button{
+  margin-bottom: 20px;
+}
+
+.copy{
+  font-size: 0.8rem;
+  color: rgb(169, 169, 169);
+}

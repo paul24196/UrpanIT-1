@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IT Company</title>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+  <script type="module" src="js/map.js"></script>
+  <!-- Link to Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <!-- Link to your custom CSS -->
+  <link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #ffefd5;">
+  <div class="container">
+    <!-- <a class="navbar-brand" href="#">IT Solutions</a> -->
+    <img src="img/Urpan IT logo.png" alt="logo">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse nav navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#services">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section id="hero" class="hero bg-grey text-white text-center py-5">
+  <div class="container">
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="4000">
+            <img src="img/AdobeStock_147062140.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5><span>Excellent and Reliable</span></h5>
+              <p><span>Our focus is to provide excellence through providing talented resources who you can rely on throughout your project needs and ensure continuous workflow.</span>  </p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="4000">
+            <img src="img/e86611480364d248fc61e8e7e6a6cd48.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5><span>Quick and Ongoing</span></h5>
+              <p><span>UrpanIT is dedicated to offering skilled personnel in short time and support your company's expansion.</span></p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="4000">
+            <img src="img/308-name05903-chim-1600x989.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5><span>Efficient Team</span></h5>
+              <p><span>Our resourceful team working hard to provide out of the box and customized solutions to address your business needs.</span></p>
+            </div>
+          </div>
+        </div>
+        <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button> -->
+      </div>
+  </div>
+</section>
+<section class="text-black text-center py-5" id="getstarted">
+    <div>
+        <h1 class="display-4">Your Trusted IT Solutions Provider</h1>
+        <p class="lead">Empowering businesses with cutting-edge technology.</p>
+        <button class="btn btn-outline-dark btn-lg" onclick="window.location.href='#contact';" >Get Started</button>
+      </div>
+</section>
+
+
+<!-- About Section -->
+<section id="about" class="py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h2>About Us</h2>
+        <p>We are a team of experts specializing in IT solutions, 
+            software development, and more.We specialize in connecting 
+            businesses with top-notch IT professionals to fuel growth
+             and innovation. Our tailored staffing solutions offer skilled 
+             talent for temporary, permanent, and contract-to-hire positions,
+              ensuring a seamless fit within your team and projects. With a 
+              deep understanding of technology trends and a vast network of 
+              experts, we're committed to helping you build a dynamic 
+              workforce that drives success in the ever-evolving world of IT.</p>
+      </div>
+      <div class="col-md-6">
+        <img src="img/About us.png" alt="About Us" class="Aboutus">
+      </div>
+    </div>
+  </div>
+  <hr>
+</section>
+
+<!-- Services Section -->
+<!-- Services Section -->
+<section id="services" class="py-5">
+    <div class="container">
+      <h2 class="text-center ser">Our Services</h2>
+      <div class="row card-deck">
+        <div class="col-md-4">
+          <div class="card mb-4 service-card">
+            <div class="card-body">
+              <h4 class="card-title text-center py-3">IT Consulting</h4>
+              <p class="card-text text-center">Find skilled IT professionals for short-term projects.
+                Empower your business with expert IT guidance. We provide strategic insights, 
+                innovative solutions, and technology roadmaps to optimize your operations and drive growth.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 service-card">
+            <div class="card-body">
+              <h4 class="card-title text-center py-3">Permanent Staffing</h4>
+              <p class="card-text text-center">Hire dedicated IT experts to join your team full-time.
+                Unlock top-tier IT talent for your projects. 
+                Our staffing service connects you with skilled professionals 
+                who match your requirements, ensuring successful project outcomes and 
+                seamless team integration.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 service-card">
+            <div class="card-body">
+              <h4 class="card-title text-center py-3">Contract-to-Hire</h4>
+              <p class="card-text text-center">Evaluate candidates before making long-term commitments.
+                Our flexible service lets you evaluate IT talent on short-term projects
+                 before committing to a full-time hire. Benefit from skilled professionals, 
+                 assess their fit, and seamlessly transition the right match into a permanent
+                  role for long-term success.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 service-card">
+            <div class="card-body">
+              <h4 class="card-title text-center py-3">Direct Hire Services</h4>
+              <p class="card-text text-center">For the firm to operate smoothly, certain resources are essential. It takes a lot of effort and resources to find the proper talent. In accordance with their recruiting strategy, we help organisations find, recruit, and hire the best people for a variety of positions.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 service-card">
+            <div class="card-body">
+              <h4 class="card-title text-center py-3">Skill-development Plan</h4>
+              <p class="card-text text-center">Emerging technology training and development are crucial and give organisations an advantage over their rivals. UrpanTech collaborates with businesses and offers programmes for skill development to enable their resources for the best performance and future readiness.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 service-card">
+            <div class="card-body">
+              <h4 class="card-title text-center py-3">Temporary Staffing</h4>
+              <p class="card-text text-center">Business resources may be planned, project, or time-based. Our temporary staffing solutions help you identify these demands and enable you to scale up or down your resource requirements accordingly. We also build your resource capacity, which relieves you of the associated costs and management difficulties.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+<!-- Contact Section -->
+
+<!--Section: Contact v.2-->
+<!-- <section class="mb-4">
+
+   
+    <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+    
+    <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
+        a matter of hours to help you.</p>
+
+    <div class="row">
+
+        
+        <div class="col-md-9 mb-md-0 mb-5">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                
+                <div class="row">
+
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="name" name="name" class="form-control">
+                            <label for="name" class="contact">Your name</label>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="email" name="email" class="form-control">
+                            <label for="email" class="contact">Your email</label>
+                        </div>
+                    </div>
+                   
+
+                </div>
+               
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <input type="text" id="subject" name="subject" class="form-control">
+                            <label for="subject" class="contact">Subject</label>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row">
+
+                   
+                    <div class="col-md-12">
+
+                        <div class="md-form">
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                            <label for="message" class="contact">Your message</label>
+                        </div>
+
+                    </div>
+                </div>
+                
+
+            </form>
+
+            <div class="text-center text-md-left">
+                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+            </div>
+            <div class="status"></div>
+        </div>
+       
+        <div class="col-md-3 text-center">
+            <ul class="list-unstyled mb-0">
+                <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                    <p>1st Floor, Megish Tower, <br>Patrick Nagar, Madapur,<br> Hyderabad-500 081</p>
+                </li>
+
+                <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                    <p>+91 80561 28920</p>
+                </li>
+
+                <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                    <p>humanresources@urpantech.com</p>
+                </li>
+            </ul>
+        </div>
+        
+
+    </div>
+
+</section>-->
+<!--Section: Contact v.2-->
+
+<section id="contact" class="py-5">
+  <div class="container">
+    
+    <div class="row">
+      <div class="col-md-6 mx-auto">
+        <h2 class="text-center">Contact Us</h2>
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label">Your Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Your Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" rows="4" placeholder="Enter your message"></textarea>
+          </div>
+          <button type="submit" class="submit" role="button">Submit</button>
+        </form>
+        <div id="map" class="col-md-6"></div>
+      </div>
+      <div class="col-md-6">
+  <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=megrish towers&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://gachanox.io/">Gacha Nox APK</a></div><style>.mapouter{position:relative;text-align:right;width:50px;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:600px;height:400px;}.gmap_iframe {width:600px!important;height:400px!important;}</style></div>
+            
+        </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer Section -->
+<footer class="bg-dark text-white text-center py-3">
+  <button class="btn btn-dark btn-sm" onclick="window.location.href='#hero';" >Home</button>
+  <h6>UrpanIT Private Limted</h6>
+  <p>1st Floor, MegRish Tower Patrika Nagar, Madhapur Hyderabad-500 081.</p>
+  <p>ph:+91 9884253718</p>
+  <p class="copy">&copy; UrpanIT Tech Suport. All rights reserved.</p>
+</footer>
+<!-- google maps -->
+<script>(g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})
+    ({key: "AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg", v: "beta"});</script>
+<!-- Bootstrap JS scripts (Bootstrap 5 requires Popper.js) -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
